@@ -1,0 +1,24 @@
+body {
+    margin: 0;
+    background: #222;
+    font-family: system-ui;
+    display: grid;
+    place-content: center;
+    min-height: 100vh;
+}
+
+.App {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    background-color: #0f0f0f;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.555);
+    border: 1px solid rgba(91, 192, 218, 0.144);
+    transition: .5s ease all;
+    cursor: default;
+}
+.App:hover {
+    transform: scale(120%);
+}
